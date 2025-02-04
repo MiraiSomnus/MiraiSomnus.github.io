@@ -1,0 +1,38 @@
+body{
+    background-color: #FFD9DA;
+    text-align: center;
+    color:#877B66;;
+    font-style: Verdana;
+}
+
+h1{
+    color:#7EBC89;
+}
+main{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a:hover{
+   color: #877B66; 
+}
+
+h2{
+    text-align: center;
+    color:#877B66;
+}
+
+
+img{
+width:  30%;
+}
+
+figure{
+    text-align: center;
+    font-style: italic;
+}
+li{
+    text-align: left;
+}
+
