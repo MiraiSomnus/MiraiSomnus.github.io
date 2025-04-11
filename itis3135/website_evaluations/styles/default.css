@@ -1,0 +1,21 @@
+main,body,a{
+    text-align: center;
+    color: #EFC88B;
+}
+
+body{
+    background-color:black ;
+}
+ul{
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+}
+li{
+    text-align: left;
+}
+
+a:hover:visited{
+ color: gray;
+}
+
