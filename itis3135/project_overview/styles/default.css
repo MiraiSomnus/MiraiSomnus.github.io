@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color:#E2856E;
+    color: #0F1A20;
+    margin: auto;
+    max-width: 95%;
+}
+ol{
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+}
+.Q2{
+    text-align: center;
+    margin: auto;
+    max-width: 20%;
+}
+li{
+    text-align: left;
+}
+
+a{
+ color:black
+}
+
+a:hover{
+    color:#88A2AA
+}
