@@ -1,0 +1,38 @@
+body,h1,h2{
+    text-align: center;
+    background-color:#FFE3E3 ;
+    color: #6b4176;
+    font-family: Verdana, Geneva, Tahoma;
+    
+}
+
+a,a:hover{
+    color:#000000
+}
+
+p,header,footer{
+    color:#000000;
+    font-size: 16px;
+}
+p{
+    margin: 1%;
+   
+}
+ul{
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    max-width: 50%;
+}
+li{
+    text-align: left;
+}
+main{
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 22%;
+    }
+
+.homeImg{
+width: 25%;
+}
