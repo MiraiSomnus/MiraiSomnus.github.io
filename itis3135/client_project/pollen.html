@@ -7,14 +7,13 @@
     <link rel ="stylesheet" href="styles/default.css">
 </head>
 <body>
+    <!--Dynamic Loading Header-->
     <header>
         <h2>Jasmine's Common Pharmacy</h2>
-      
-            <div data-include="components/header.html"></div>
-        
+        <div data-include="components/header.html"></div>
     </header>
     <main>
-
+    <!--Image Gallery-->
         <section id = gallery-section>
             <h2>Pollen Allergy</h2>
         <div id= "gallery">
@@ -26,7 +25,7 @@
             <img src="images/Flonase.jpg" class="thumbnail" alt=""/>
         </div>
     </section>
-
+        <!--Symptoms Description-->
         <h2>Symptoms</h2>
         <p>The symptoms you will experience if you have a pollen allergy are a sneezing, 
             runny and or stuffy nose, itchy eyes, and a itchy throat </p>
@@ -37,7 +36,7 @@
             <li><b>Flonase</b>: Flonase is a nasal spray that relieves congestion in the nose whilst also putting an ened to sneezing, runny noses,
                 and itchy eyes and throat.</li>
         </ul>
-
+        <!--Survey Section-->
         <h2>Survey Question</h2>
         <fieldset class="survey">
             <legend>Which Solution Seems the Most Effective to you?</legend>
@@ -47,6 +46,7 @@
             <input value="Your Selection for Flonase has been submitted" class="options" type ="radio" name="options" id="optionTwo">
             <div><button name="Submit" onclick=printValue() class="options" id="submitBtn">Submit</button></div>
         </fieldset>
+        <!--Survey that ask the users which item they believe will be most effective based of the description -->
         <section>
             <h2>Images Sources</h2>
             <ul id="sources">
@@ -55,8 +55,9 @@
             </ul>
             </section> 
     </main>
+     <!--Dynamic Loading Footer-->
     <footer>
-        <div data-include="components/footer.html"></div>
+    <div data-include="components/footer.html"></div>
     </footer>
     <script src="scripts/HTMLInclude.min.js"></script>  
 </body>

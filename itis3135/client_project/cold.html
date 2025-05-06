@@ -8,13 +8,13 @@
     
 </head>
 <body>
+    <!--Dynamic Loading Header-->
     <header>
         <h2>Jasmine's Common Pharmacy</h2>
-      
-            <div data-include="components/header.html"></div>
-        
+        <div data-include="components/header.html"></div>
     </header>
     <main>
+        <!--Image Gallery-->
         <section id = gallery-section>
             <h2>Common Cold</h2>
       <div id= "gallery">
@@ -24,6 +24,7 @@
             <img src="images/advil.jpg" class="thumbnail" alt="Photo of advil box"/>
         </div>
     </section>
+    <!--Symptoms Description-->
         <h2>Symptoms</h2>
         <p>Some symptoms that are most symnonomus with a common cold to which you may be experiencing are 
             a runny nose, a stuffy nose, sneezing, sore throat,fever, and or coughing. </p>
@@ -37,6 +38,7 @@
                 to which will make it cease so if you're symptoms don't meet any of the previous solutions it's best to simply
             get some rest and let your immune system deal with the cold. </li>
             </ul>
+            <!--Survey that ask the users which item they believe will be most effective based of the description -->
             <h2>Survey Question</h2>
             <fieldset class="survey">
                 <legend>Which Solution Seems the Most Effective to you?</legend>
@@ -49,6 +51,7 @@
                 <div><button name="Submit" onclick=printValue() class="options" id="submitBtn">Submit</button></div>
                 </fieldset>
 
+            <!--Sources Section due to having to reshape image aspect ratios-->
             <section>
                 <h2>Images Sources</h2>
                 <ul id="sources">
@@ -57,9 +60,9 @@
                 </ul>
                 </section> 
     </main>
+    <!--Dynamic Loading Footer-->
     <footer>
-        
-        <div data-include="components/footer.html"></div>
+    <div data-include="components/footer.html"></div>
     </footer>
     <div>    
     <script src="scripts/HTMLInclude.min.js"></script>
