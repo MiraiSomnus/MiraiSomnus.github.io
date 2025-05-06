@@ -14,10 +14,45 @@
         
     </header>
     <main>
+        <section id = gallery-section>
+            <h2>Common Cold</h2>
+      <div id= "gallery">
+               <img src="images/MoMDefault.png" id = "defaultImg" alt="A picture containg a bottle of Milk of Magnesia"/></div>
+        <div id="thumbnail-gallery">
+            <img src="images/MoM.png" class="thumbnail" alt="A picture containg a bottle of Milk of Magnesia"/>
+            <img src="images/pep.jpg" class="thumbnail" alt="A picture containg a bottle of Pepto Bismal"/>
+        </div>
+    </section>
         <h2>Symptoms</h2>
-        <p></p>
+        <p>The symptoms to whichj will apply if you have an upset stomach are as follows: 
+            nausea, vomitting, diarrhea, bloating, and stomach pain.</p>
         <h2>Solutions</h2>
-        <p></p>
+        <p>Solutions that will help you navigate and deal with an upset stomach are:</p>
+        <ul>
+        <li><b>Pepto Bismal</b>: Pepto Bismal is liquid medicine  Relieves and resolves upset stomach issues by protecting your the lowest part 
+            of your food pipe and as well your stomach from stomach acid.</li>
+        <li><b>Milk of Magnesia</b>: Milk of Magnesia is also liquid medicine will solve your upset stomach issues by reducing stomach acid whilst also 
+        allowing more water in the intestines which will cause a bowel which will assist in flushing whatever is causing the upset stomach in the 
+    first place out of your system resolving the issue.</li>
+        </ul>
+        <p>These two medicines will  definitively resolve any upset stomach uses that you may be having.</p>
+
+        <h2>Survey Question</h2>
+        <fieldset class="survey">
+            <legend>Which Solution Seems the Most Effective to you?</legend>
+            <label for="optionOne" >Pepto Bismal</label>
+            <input value="Your Selection for Pepto Bismal has been submitted" type ="radio" class="options" name="options" id="optionOne">
+            <label for="optionTwo">Milk of Magnesia</label>
+            <input value="Your Selection for Milk of Magnesia has been submitted" class="options" type ="radio" name="options" id="optionTwo">
+            <div><button name="Submit" onclick=printValue() class="options" id="submitBtn">Submit</button></div>
+        </fieldset>
+        <section>
+            <h2>Images Sources</h2>
+            <ul id="sources">
+            <li><a href="https://e22d0640933e3c7f8c86-34aee0c49088be50e3ac6555f6c963fb.ssl.cf2.rackcdn.com/beb21446-4534-4e5c-8c1e-37cfab3baa6f_large.png">Pepto Bismal</a></li>
+            <li><a href="https://m.media-amazon.com/images/I/71wC-kjlVvL.jpg">Milk of Magnesia</a></li>
+            </ul>
+            </section> 
     </main>
     <footer>
         <div data-include="components/footer.html"></div>

@@ -10,7 +10,7 @@ a,a:hover{
     color:#000000
 }
 
-p,header,footer{
+p,header,footer,fieldset,figcaption{
     color:#000000;
     font-size: 16px;
 }
@@ -26,13 +26,48 @@ ul{
 }
 li{
     text-align: left;
+    color:#000000
 }
 main{
     text-align: center;
     margin-left: 22%;
     margin-right: 22%;
     }
+button{
+    height: 20%;
+}
+#gallery{
+    width: 35rem;
+    margin:4rem auto;
+}
 
+#thumbnail-gallery{
+    display: flex;
+    justify-content: center;
+    
+}
+.thumbnail{
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+#defaultImg{
+    width: 75%;
+}
+.tylenol{
+ width: 30%;
+}
+
+#sources{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+#mom{
+    width: 50%;
+}
 .homeImg{
 width: 25%;
 }

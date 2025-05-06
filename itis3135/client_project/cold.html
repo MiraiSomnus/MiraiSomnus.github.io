@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jasmine's Common Pharmacy</title>
     <link rel ="stylesheet" href="styles/default.css">
+    
 </head>
 <body>
     <header>
@@ -14,21 +15,54 @@
         
     </header>
     <main>
+        <section id = gallery-section>
+            <h2>Common Cold</h2>
+      <div id= "gallery">
+               <img src="https://target.scene7.com/is/image/Target/GUEST_138267f6-6a59-440d-b1a4-ad238441ef59" id = "defaultImg" class= "tylenol" alt="A picture containg the front of a tylenol box"/></div>
+        <div id="thumbnail-gallery">
+            <img src="images/tyResizedThumb.jpg" id="tylenol" class="thumbnail" alt="A picture containg the front of a tylenol box"/>
+            <img src="images/advil.jpg" class="thumbnail" alt="Photo of advil box"/>
+        </div>
+    </section>
         <h2>Symptoms</h2>
         <p>Some symptoms that are most symnonomus with a common cold to which you may be experiencing are 
-            a runny nose, a stuffy nose, sneezing, sore throat, and or coughing. </p>
+            a runny nose, a stuffy nose, sneezing, sore throat,fever, and or coughing. </p>
         <h2>Solutions</h2>
         <p>Some solutions to which could help relieve this problem, as there is no direct medicine to out right cure
             a common cold unfortunatley,  are as follows:</p>
             <ul>
-                <li><b>Tylenol</b>:</li>
-                <li><b>Advil</b>:</li>
-                <li><b>Aspirin</b>:</li>
+                <li><b>Tylenol</b>: Tylenol is medicine that comes in pill and or liquid form that will reduce fevers</li>
+                <li><b>Advil</b>: Advil are also medicine pills will reduce inflammation,fever, and pain.</li>
+                <li><b>Rest</b>: As mentioned above due to the nature of the common cold there's not any direct medicine
+                to which will make it cease so if you're symptoms don't meet any of the previous solutions it's best to simply
+            get some rest and let your immune system deal with the cold. </li>
             </ul>
+            <h2>Survey Question</h2>
+            <fieldset class="survey">
+                <legend>Which Solution Seems the Most Effective to you?</legend>
+                <label for="optionOne" >Tylenol</label>
+                <input value="Your Selection for Tylenol has been submitted" type ="radio" class="options" name="options" id="optionOne">
+                <label for="optionTwo">Advil</label>
+                <input value="Your Selection for Advil has been submitted" class="options" type ="radio" name="options" id="optionTwo">
+                <label for="optionThree">Rest</label>
+                <input value="Your Selection for Rest has been submitted" class="options" type ="radio" name="options" id="optionThree">
+                <div><button name="Submit" onclick=printValue() class="options" id="submitBtn">Submit</button></div>
+                </fieldset>
+
+            <section>
+                <h2>Images Sources</h2>
+                <ul id="sources">
+                <li><a href="https://target.scene7.com/is/image/Target/GUEST_138267f6-6a59-440d-b1a4-ad238441ef59">Tylenol</a></li>
+                <li><a href="https://pics.walgreens.com/prodimg/10024/450.jpg">Advil</a></li>
+                </ul>
+                </section> 
     </main>
     <footer>
+        
         <div data-include="components/footer.html"></div>
     </footer>
-    <script src="scripts/HTMLInclude.min.js"></script>  
+    <div>    
+    <script src="scripts/HTMLInclude.min.js"></script>
+</div>
 </body>
 </html>

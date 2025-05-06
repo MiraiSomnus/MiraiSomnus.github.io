@@ -14,10 +14,46 @@
         
     </header>
     <main>
+
+        <section id = gallery-section>
+            <h2>Pollen Allergy</h2>
+        <div id= "gallery">
+                <img src="images/zyrDefault.jpg" id = "defaultImg" alt=""/>
+
+        </div>
+        <div id="thumbnail-gallery">
+            <img src="images/zyr.jpg"  class="thumbnail" alt=""/>
+            <img src="images/Flonase.jpg" class="thumbnail" alt=""/>
+        </div>
+    </section>
+
         <h2>Symptoms</h2>
-        <p></p>
+        <p>The symptoms you will experience if you have a pollen allergy are a sneezing, 
+            runny and or stuffy nose, itchy eyes, and a itchy throat </p>
         <h2>Solutions</h2>
-        <p></p>
+        <p>Solutions that will help you deal with the effects of an pollen allergy are:</p>
+        <ul>
+            <li><b>Zyrtec</b>: Zyrtec are medicine pills is an antihestamine that covers and treats all of symptoms listed above.</li>
+            <li><b>Flonase</b>: Flonase is a nasal spray that relieves congestion in the nose whilst also putting an ened to sneezing, runny noses,
+                and itchy eyes and throat.</li>
+        </ul>
+
+        <h2>Survey Question</h2>
+        <fieldset class="survey">
+            <legend>Which Solution Seems the Most Effective to you?</legend>
+            <label for="optionOne" >Zyrtec</label>
+            <input value="Your Selection for Zyrtec has been submitted" type ="radio" class="options" name="options" id="optionOne">
+            <label for="optionTwo">Flonase</label>
+            <input value="Your Selection for Flonase has been submitted" class="options" type ="radio" name="options" id="optionTwo">
+            <div><button name="Submit" onclick=printValue() class="options" id="submitBtn">Submit</button></div>
+        </fieldset>
+        <section>
+            <h2>Images Sources</h2>
+            <ul id="sources">
+            <li><a href="https://images.albertsons-media.com/is/image/ABS/960011186-C1N1?$ng-ecom-pdp-mobile$&defaultImage=Not_Available">Zyrtec</a></li>
+            <li><a href="https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/bp-respiratory-flonase-sensimist/en_US/pages/homepage/sust-creative-image-v2.jpg?auto=format">Flonase</a></li>
+            </ul>
+            </section> 
     </main>
     <footer>
         <div data-include="components/footer.html"></div>
